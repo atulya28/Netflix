@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@700&display=swap');
+
+main{
+  height: 100%;
+}
+
+.title{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 0px 0px 4px white;
+}
+
+.t1{
+  font-size: 10.6vw;
+  background: linear-gradient(65deg, rgb(0,0,0,0.75), hsla(0, 0%, 100%, 0), #ffffff00);
+  width: 100%;
+  position: relative;
+  height: 102.9vh;
+  margin-top: -9vh;
+  padding-top: 26vh;
+  padding-left: 2vw;
+  top: 1.5vh;
+}
+
+.desc{
+  position: relative;
+  color: white;
+  width: 39%;
+  font-size: 1.7vw;
+  font-family: 'News Cycle', sans-serif;
+  margin-left: 2.9vw;
+  margin-top: -50vh;
+}
+
+.pos{
+  position: relative;
+  justify-content: space-around;
+  margin-left: 7vh;
+  margin-top: 3vh;
+  font-weight: bold;
+  padding: 1.5vh 2vw;
+}
+
+.pos1{
+  position: relative;
+  margin-top: 3vh;
+  margin-left: 3vh;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 1.45vh 2vw;
+}
+
+#info{
+  width: 21px;
+  position: relative;
+  top: -0.2vh;
+  left: -0.7vw;
+}
+
+#play{
+  width: 19px;
+  position: relative;
+  left: -0.6vw;
+  top: -0.1vh;
+}

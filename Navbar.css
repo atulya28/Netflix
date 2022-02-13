@@ -1,0 +1,31 @@
+.logo{
+  padding-top: 1.7vh;
+  padding-left: 2vh;
+  position: relative;
+  height: 37px;
+  top: 1vh;
+}
+
+.man1{
+  width: 32px;
+  height: 32px;
+  margin-left: auto;
+  position: relative;
+  top: 1.2vh;
+  left: -2vh;
+}
+
+.navbar{
+  opacity: 1;
+  background: linear-gradient(to bottom, black, transparent);
+  position: relative;
+  transition: 0.5s; 
+  margin-top: -4vh;
+}
+
+.darkImg{
+  width: 100%;
+  position: relative;
+  top: 98.99vh;
+  margin-top: -118vh;
+}

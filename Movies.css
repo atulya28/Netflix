@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.header{
+  color: white;
+  font-size: 1.7vw;
+  margin-left: 3.9vw;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 12vh;
+  top: -7.2vh;
+}
+
+.row1{
+  display: flex;
+  position: relative;
+  overflow: scroll;
+  overflow-y: hidden;
+  margin-left: 4vw;
+  transition: 0.5s;
+  scroll-behavior: smooth;
+  margin-top: -6.8vh;
+}
+
+::-webkit-scrollbar {
+  display: none
+}
+
+#action{
+  transition: 0.5s;
+  position: relative;
+  margin-left: 0.3vw;
+}
+
+#action:hover{
+  transform: scale(1.08);
+  cursor: pointer;
+}
+
+.act_movies:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+}
+.next{
+  background: linear-gradient(45deg, black, transparent);
+  height: 35vh;
+  width: 4vw;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  top: -34vh;
+  display: flex;
+  margin-left: auto;
+  border: none;
+}
+#nextBtn{
+  margin: auto;
+}
+.previous{
+  background: linear-gradient(45deg, black, transparent);
+  height: 35vh;
+  width: 4vw;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  margin-top: -69vh;
+  left: 4vw;
+  border: none;
+  display: flex;
+}
+#prevBtn{
+  margin: auto; 
+}
+.all_movies{
+  position: relative;
+  left: -0.8vw;
+}
+#player{
+  margin: auto
+}
